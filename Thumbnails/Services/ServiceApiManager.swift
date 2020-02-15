@@ -10,7 +10,6 @@ import Foundation
 
 struct ServiceApiManager {
     static var photoApi: String = "https://www.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=548aac38636d6b1224a928547c81797e&format=json&nojsoncallback=1"
-    static var currencyApi = "https://currency-converter5.p.rapidapi.com/currency/list"
 }
 
 struct ImageBinder {

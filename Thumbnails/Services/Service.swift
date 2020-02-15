@@ -22,12 +22,6 @@ extension Service {
         }
         var request = URLRequest.init(url: url)
         request.httpMethod = "GET"
-        /* Only for Rapid api */
-        let headers = [
-            "x-rapidapi-host": "currency-converter5.p.rapidapi.com",
-            "x-rapidapi-key": "70612cb596msh2412c74e1e2f567p1abf13jsn08e0d0f787a1"
-        ]
-        request.allHTTPHeaderFields = headers
         let session = URLSession.init(configuration: .default)
         let dataTask = session.dataTask(with: request) { (data, response, error) in
             if let httpResponse = response as? HTTPURLResponse {

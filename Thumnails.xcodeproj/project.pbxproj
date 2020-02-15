@@ -25,9 +25,6 @@
 		B36FE0E823E303D400F2665B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36FE0E523E303D300F2665B /* Photo.swift */; };
 		B36FE0E923E303D400F2665B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36FE0E623E303D300F2665B /* Photos.swift */; };
 		B36FE0EA23E303D400F2665B /* PhotosBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36FE0E723E303D400F2665B /* PhotosBase.swift */; };
-		B3A20A1723E83847005C138D /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A20A1623E83847005C138D /* CurrencyViewModel.swift */; };
-		B3A20A1923E83874005C138D /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A20A1823E83874005C138D /* CurrencyView.swift */; };
-		B3A20A1D23E84A72005C138D /* CurrencyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A20A1C23E84A72005C138D /* CurrencyListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +70,6 @@
 		B36FE0E523E303D300F2665B /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		B36FE0E623E303D300F2665B /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		B36FE0E723E303D400F2665B /* PhotosBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosBase.swift; sourceTree = "<group>"; };
-		B3A20A1623E83847005C138D /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
-		B3A20A1823E83874005C138D /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
-		B3A20A1C23E84A72005C138D /* CurrencyListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListModel.swift; sourceTree = "<group>"; };
 		C1F0660B7AE8ACFB0ACDBD8D /* Pods_Movies_MoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movies_MoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66B6C3A544220FB12F8083B /* Pods_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD93089E8B8DDAFA78580224 /* Pods-Movies-MoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies-MoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Movies-MoviesUITests/Pods-Movies-MoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -210,7 +204,6 @@
 		B36FE0D823E2E6DF00F2665B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B3A20A1B23E84A5B005C138D /* Currency */,
 				B3A20A1A23E849C6005C138D /* Photos */,
 			);
 			path = Models;
@@ -220,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				B36FE0E323E2F69B00F2665B /* PhotoListViewModel.swift */,
-				B3A20A1623E83847005C138D /* CurrencyViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -239,7 +231,6 @@
 			isa = PBXGroup;
 			children = (
 				B36FE0AB23E2E24A00F2665B /* ContentView.swift */,
-				B3A20A1823E83874005C138D /* CurrencyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,14 +243,6 @@
 				B36FE0E623E303D300F2665B /* Photos.swift */,
 			);
 			name = Photos;
-			sourceTree = "<group>";
-		};
-		B3A20A1B23E84A5B005C138D /* Currency */ = {
-			isa = PBXGroup;
-			children = (
-				B3A20A1C23E84A72005C138D /* CurrencyListModel.swift */,
-			);
-			name = Currency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,18 +485,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B36FE0E923E303D400F2665B /* Photos.swift in Sources */,
-				B3A20A1723E83847005C138D /* CurrencyViewModel.swift in Sources */,
 				B36FE0E823E303D400F2665B /* Photo.swift in Sources */,
 				B36FE0A823E2E24A00F2665B /* AppDelegate.swift in Sources */,
 				B36FE0EA23E303D400F2665B /* PhotosBase.swift in Sources */,
 				B36FE0AA23E2E24A00F2665B /* SceneDelegate.swift in Sources */,
 				B36FE0DF23E2EEE400F2665B /* Service.swift in Sources */,
-				B3A20A1923E83874005C138D /* CurrencyView.swift in Sources */,
 				B36FE0AC23E2E24A00F2665B /* ContentView.swift in Sources */,
 				B36FE0E223E2EF4300F2665B /* Enums.swift in Sources */,
 				B36FE0DD23E2EA5800F2665B /* ServiceApiManager.swift in Sources */,
 				B36FE0E423E2F69B00F2665B /* PhotoListViewModel.swift in Sources */,
-				B3A20A1D23E84A72005C138D /* CurrencyListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
